@@ -122,3 +122,48 @@ Next line i2+a+bi
 6 + 5i  
 10 + 10i  
 
+**10.** Given an array of size n and an integer k, find all elements in the array that appear more than n/k times in C++.  
+**Examples:**  
+**Input:** arr[] = {3, 1, 2, 2, 1, 2, 3, 3}, k = 4  
+**Output:** {2, 3}  
+**Explanation:** Here n/k is 8/4 = 2, therefore 2 appears 3 times in the array that is greater than 2 and 3 appears 3 times in the array that is greater than 2.
+
+**Input:** arr[] = {9, 8, 7, 9, 2, 9, 7}, k = 3  
+**Output:** {9}  
+**Explanation:** Here n/k is 7/3 = 2, therefore 9 appears 3 times in the array that is greater than 2.  
+
+**11.** Write a C++ program implementing Stack ADT using class template & perform the required operations like PUSH and POP. Pass int, float and char data types to the Stack class.  
+
+**12.** In this problem, you need to add 2 given complex numbers and print the resulting complex number using '+' operator. Implement a class named complex containing data members as real and imaginary part of the complex number and the following function in C++:  
+void display()  
+constructor to assign values to the complex number.  
+operator function to add 2 numbers  
+**Input:**  
+First line of the input contains the number of test cases and each test case contains 4 space separated integer values representing the real and imaginary part of 2 complex numbers ( Real1 imaginary 1 real2 imaginary2 )  
+**Output:**  
+The output to each test case should be a single line representing the resulting complex number from the addition of given complex numbers. In the given format real + imaginary_i  
+
+**Example:**  
+**Input:**  
+2  
+3 6 -1 4  
+2 2 -1 -1  
+**Output:**  
+2 + 10i  
+1 + 1i  
+
+**13.** Write a C++ program for the Inventory Management System to track and manage a store's inventory. Add a new product for the existing stock with the following functionalities.  
+**Input:** Product Name, Description, Price, Quantity, Category.  
+**Output:** Generate a unique Product ID, add the product to the list of products, and update the stock level.  
+
+**14.** Write a C++ program to print the following output for the given input. You can assume the string is of odd length.  
+**Example:**  
+**Input:** 12345  
+**Output:**  
+1   5  
+ 2 4  
+  3  
+ 2 4  
+1   5  
+
+**15.** Write a C++ program to create a class Account with an instance variable balance (double). It should contain a constructor that initializes the balance, ensure that the initial balance is greater than 0.0. Acct details: Acct_Name, Acct_acctno, Acct_Bal, Acct_Address. Create two methods namely credit and debit, getBalance. The Credit adds the amount (passed as parameter) to balance and does not return any data. Debit method withdraws money from an Account. GetBalance displays the amount. Ensure that the debit amount does not exceed the Account’s balance. In that case the balance should be left unchanged and the method should print a message indicating “Debit amount exceeded account balance” using exception handling.
