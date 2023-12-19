@@ -160,10 +160,47 @@ The output to each test case should be a single line representing the resulting 
 **Example:**  
 **Input:** 12345  
 **Output:**  
-1   5  
- 2 4  
-  3  
- 2 4  
-1   5  
+1 &nbsp;&nbsp;&nbsp;&nbsp; 5  
+&nbsp; 2 &nbsp; 4  
+&nbsp;&nbsp;&nbsp; 3  
+&nbsp; 2 &nbsp; 4  
+1 &nbsp;&nbsp;&nbsp;&nbsp; 5  
 
 **15.** Write a C++ program to create a class Account with an instance variable balance (double). It should contain a constructor that initializes the balance, ensure that the initial balance is greater than 0.0. Acct details: Acct_Name, Acct_acctno, Acct_Bal, Acct_Address. Create two methods namely credit and debit, getBalance. The Credit adds the amount (passed as parameter) to balance and does not return any data. Debit method withdraws money from an Account. GetBalance displays the amount. Ensure that the debit amount does not exceed the Account’s balance. In that case the balance should be left unchanged and the method should print a message indicating “Debit amount exceeded account balance” using exception handling.
+
+**16.** Given an array arr of non-negative integers and an integer sum, the task is to count all subsets of the given array with a sum equal to a given sum.
+
+Note: Answer can be very large, so, output answer modulo 109+7.
+
+**Example 1:**
+
+**Input:** 
+N = 6  
+arr = [5, 2, 3, 10, 6, 8]  
+sum = 10  
+**Output:**  
+3  
+**Explanation:**  
+{5, 2, 3}, {2, 8}, {10} are possible subsets.  
+
+**Example 2:** 
+
+**Input:**  
+N = 5  
+arr = [2, 5, 1, 4, 3]  
+sum = 10  
+**Output:**  
+3  
+**Explanation:**   
+{2, 1, 4, 3}, {5, 1, 4}, {2, 5, 3} are possible subsets.  
+
+**Your Task:**  
+You don't need to read input or print anything. Complete the function perfectSum() which takes N, array arr and sum as input parameters and returns an integer value.
+
+**Expected Time Complexity:** O(N * sum)  
+**Expected Auxiliary Space:** O(N * sum)  
+
+**Constraints:**  
+1 ≤ N*sum ≤ 106  
+0 ≤ arr[i] ≤ 106  
+ 
