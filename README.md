@@ -7,6 +7,8 @@
 + Vector
 + Map
 + Multi-level inheritance
++ Hierarchical inheritance
++ String operations
 + Function template
 + Class template
 + Exception handling
