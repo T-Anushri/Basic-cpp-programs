@@ -2,6 +2,7 @@
 
 **Concepts implementation** folder consists of programs demonstrating C++ concepts such as:
 + Constructors and Destructor
++ Access specifiers
 + Function overloading
 + Operator overloading
 + Vector
